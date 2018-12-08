@@ -12,6 +12,8 @@
                         'Elixir.ModestGreeter.LayoutView',
                         'Elixir.ModestGreeter.Router',
                         'Elixir.ModestGreeter.Router.Helpers',
+                        'Elixir.ModestGreeter.TopController',
+                        'Elixir.ModestGreeter.TopView',
                         'Elixir.ModestGreeter.UserSocket',
                         'Elixir.ModestGreeter.Web']},
               {mod,{'Elixir.ModestGreeter',[]}},
