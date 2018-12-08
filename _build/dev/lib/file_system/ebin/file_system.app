@@ -1,0 +1,11 @@
+{application,file_system,
+             [{registered,[]},
+              {description,"A file system change watcher wrapper based on [fs](https://github.com/synrc/fs)"},
+              {vsn,"0.2.6"},
+              {modules,['Elixir.FileSystem','Elixir.FileSystem.Backend',
+                        'Elixir.FileSystem.Backends.FSInotify',
+                        'Elixir.FileSystem.Backends.FSMac',
+                        'Elixir.FileSystem.Backends.FSPoll',
+                        'Elixir.FileSystem.Backends.FSWindows',
+                        'Elixir.FileSystem.Worker']},
+              {applications,[kernel,stdlib,elixir,logger]}]}.
